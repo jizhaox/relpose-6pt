@@ -6,9 +6,22 @@ Source codes and Matlab mex files with demo code are provided in the package. Th
 
 # Reference
 
-[1] [Banglei Guan](https://guanbanglei.github.io/), [Ji Zhao](https://sites.google.com/site/drjizhao), and [Laurent Kneip](https://mpl.sist.shanghaitech.edu.cn/). [**Six-Point Method for Multi-Camera Systems with Reduced Solution Space**](https://arxiv.org/pdf/2402.18066). European Conference on Computer Vision, 2024.
+Our IJCV paper is an extended version of our ECCV24 paper. We have added an in-depth theoretical analysis using Pólya’s enumeration theorem and graph enumeration theory. The IJCV paper has been published under [open access](https://link.springer.com/article/10.1007/s11263-025-02531-2).
+
+[1] [Banglei Guan](https://guanbanglei.github.io/), [Ji Zhao](https://sites.google.com/site/drjizhao), [Saibal Mitra](https://orcid.org/0000-0002-0396-9402), and [Laurent Kneip](https://mpl.sist.shanghaitech.edu.cn/). [**Six-Point Method for Multi-Camera Systems with Reduced Solution Space**](https://link.springer.com/content/pdf/10.1007/s11263-025-02531-2.pdf). International Journal of Computer Vision, 2025. 
+
+[2] [Banglei Guan](https://guanbanglei.github.io/), [Ji Zhao](https://sites.google.com/site/drjizhao), and [Laurent Kneip](https://mpl.sist.shanghaitech.edu.cn/). [**Six-Point Method for Multi-Camera Systems with Reduced Solution Space**](https://arxiv.org/pdf/2402.18066). European Conference on Computer Vision, 2024.
 
 If you use this package in an academic work, please cite:
+
+    @article{Guan2025SixPoint,
+      author = {Banglei Guan and Ji Zhao and Saibal Mitra and Laurent Kneip},
+      title = {Six-Point Method for Multi-Camera Systems with Reduced Solution Space},
+      journal = {International Journal of Computer Vision},
+      year = {2025},
+      doi = {10.1007/s11263-025-02531-2},
+      url = {https://doi.org/10.1007/s11263-025-02531-2}
+     }
 
     @inproceedings{guan2024six,
       title={Six-Point Method for Multi-Camera Systems with Reduced Solution Space},
@@ -17,7 +30,7 @@ If you use this package in an academic work, please cite:
       year={2024}
      }
 
-The code was written by [Ji Zhao](https://sites.google.com/site/drjizhao). The initial version of this code was developed in 2020 and is available at [GitLab](https://gitlab.com/jizhaox/relpose-mcs/)
+The code was written by [Ji Zhao](https://sites.google.com/site/drjizhao). The initial version of this code was developed in 2020 and is available at [GitLab](https://gitlab.com/jizhaox/relpose-mcs/).
 
 # solver_trans_generic_6pc
 
